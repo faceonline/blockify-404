@@ -2,7 +2,7 @@
 
 global $blockify;
 
-$current = $blockify->factory->getPackage('block-404');
+$current = $blockify->factory->getPackage('block-four-oh-four');
 
 $block->open();
 
