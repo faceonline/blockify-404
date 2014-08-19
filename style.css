@@ -1,0 +1,18 @@
+.block-404 {
+	padding: 64px 0;
+	background: #e5e5e5;
+	text-align: center;
+}
+
+.block-404 > div > h1,
+.block-404 > div > h2 {
+	margin: 0 0 16px;
+}
+
+.block-404 > div > h4 {
+	opacity: 0.8;
+}
+
+.block-404 .row {
+	text-align: left;
+}

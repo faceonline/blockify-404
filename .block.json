@@ -1,0 +1,42 @@
+{
+  "name": "grid-section",
+  "description": "Simple grid layout for a collection of elements.",
+  "keywords": "content",
+  "template": {
+    "@type": "Thing",
+    "name": "Grid Section",
+    "@list": {
+      "@type": [
+        "Thing",
+        "Person",
+        "Article",
+        "Product"
+      ],
+      "name": "Child Item",
+      "@list": {
+        "@type": "Thing",
+        "name": "Image Slide"
+      }
+    }
+  },
+  "options": {
+    "childBlocks": {
+      "Article": "article-single"
+    }
+  },
+  "dependencies": {
+    "article-single": "0.1.0"
+  },
+  "homepage": "https://github.com/blockifyblocks/grid-section",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "b0bcfddd8bd3225f3fab009d6de1b6e6c39d36a2"
+  },
+  "_source": "git://github.com/blockifyblocks/grid-section.git",
+  "_target": "~0.1.0",
+  "_originalSource": "grid-section",
+  "_direct": true
+}
